@@ -3,36 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>Chandrika's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Hero / Header Section -->
     <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="hero">
+            <h1>John Doe</h1>
+            <p>Fresher Software Engineer | Web Developer | Problem Solver</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#certificates">Certificates</a>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am a fresher software engineer learning web development.</p>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I am a fresher software engineer passionate about building elegant and responsive websites. I enjoy learning new technologies and improving my programming skills every day.</p>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here I will showcase my projects.</p>
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-box">
+                    <h3>Web Development</h3>
+                    <p>Building responsive websites using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Frontend Design</h3>
+                    <p>Designing clean and modern user interfaces for web applications.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Problem Solving</h3>
+                    <p>Efficient coding and solving algorithmic challenges.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: yourname@example.com</p>
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2>Certificates</h2>
+            <ul class="certificates-list">
+                <li>HTML & CSS Fundamentals</li>
+                <li>JavaScript Basics</li>
+                <li>Introduction to Web Development</li>
+            </ul>
+        </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 My First Website</p>
+        <p>&copy; Chandrika | Email: chandrikadharmavaram@gmail.com</p>
     </footer>
+
 </body>
 </html>
